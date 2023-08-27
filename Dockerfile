@@ -7,3 +7,5 @@ RUN apt update; \
         unzip \
         zip \
     ;
+
+RUN docker-php-ext-install pdo_mysql
